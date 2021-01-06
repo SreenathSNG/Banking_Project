@@ -1,0 +1,440 @@
+@charset "ISO-8859-1";
+
+body {
+	
+	background-image: url("../images/abcd.png");
+	background-color: #d6e6f2;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+
+.login{
+
+	background-color:#dddddd;
+	margin: 50px auto 0 auto;
+	padding-top: 5%;
+	padding: 50px 0 20px;
+	width: 25%;
+	height: 25%;
+	border-radius: 30px;
+	
+}
+
+.l_l1, .l_t1  {
+	
+	position: relative;
+	left: 10px;
+	
+}
+.l_l2, .l_t2  {
+	
+	position: relative;
+}
+
+.signup {
+	
+	margin: 0 auto 0 auto;
+	background-color: #dddddd;
+	padding: 20px;
+	width: 25%;
+	height: 450px;
+	border-radius: 30px;
+	position: relative;
+}
+.signup_l1, .signup_l2 {
+	
+	position: absolute;
+	right: 65%;
+}
+.signup_t1, .signup_t2 {
+	
+	position: absolute;
+	right: 10%;
+	width: 50%;
+}
+
+.signup_l3 {
+	
+	position: absolute;
+	right: 65%;
+	top: 40%;
+}
+.signup_t3 {
+	
+	position: absolute;
+	right: 10%;
+	border-radius: 10px;
+	width: 50%;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+.signup_l4 {
+	
+	position: absolute;
+	right: 65%;
+	top: 52%;
+}
+.signup_t4 {
+	
+	position: absolute;
+	right: 10%;
+	top: 52%;
+	width: 50%;
+}
+.signup_l5 {
+	
+	position: absolute;
+	right: 65%;
+	bottom: 35%;
+}
+.signup_t5 {
+	
+	position: absolute;
+	right: 10%;
+	bottom: 35%;
+	width: 50%;
+}
+.signup_l6 {
+	
+	position: absolute;
+	right: 65%;
+	bottom: 28%;
+}
+.signup_t6 {
+	
+	position: absolute;
+	right: 10%;
+	bottom: 28%;
+	width: 50%;
+}
+.signup_l7 {
+	
+	position: absolute;
+	right: 65%;
+	bottom: 20%;
+}
+.signup_t7 {
+	
+	position: absolute;
+	right: 10%;
+	bottom: 20%;
+	width: 52%;
+	height: 6%;
+	border-radius: 5px;
+	font-family: 'Montserrat', sans-serif;
+}
+.signup_button {
+	
+	position: absolute;
+	right: 10%;
+	bottom: 8%;
+	width: 50%;
+	height: 8%;
+	font-size: 1rem;
+	font-weight: bold;
+}
+.signup_button:hover {
+	
+	background-color: #f08a5d;
+}
+.auth {
+	margin: 0 auto 0 auto;
+	background-color:#dddddd;
+	padding: 20px;
+	width: 20%;
+	height:350px;
+	border-radius: 30px;
+	position: relative;
+	
+}
+
+.a_label1 {
+	
+	position: absolute;
+	right: 65%;
+	
+}
+.a_label2 {
+	
+	position: absolute;
+	right: 65%;
+	top: 40%
+}
+.a_label3 {
+	
+	position: absolute;
+	right: 65%;
+	top: 53%
+}
+.a_label4 {
+	
+	position: absolute;
+	right: 65%;
+	top: 65%;
+}
+.a_text1 {
+	
+	position: absolute;
+	right: 30px;
+	height: 25px;
+}
+.a_text2 {
+	
+	position: absolute;
+	right: 30px;
+	top: 40%;
+	height: 25px;
+}
+.a_text3 {
+	
+	position: absolute;
+	right: 30px;
+	top: 52%;
+	height: 25px;
+}
+.a_text4 {
+	
+	position: absolute;
+	right: 30px;
+	top: 65%;
+	height: 25px;
+}
+.a_but {
+	height: 10%;
+	width: 50%;
+	position: absolute;
+	right: 30px;
+	bottom: 10%;
+	font-weight: bold;
+}
+
+/*.div2 {
+	
+	position: absolute;
+}
+.div3 {
+	
+	position: absolute;
+}
+.div4 {
+	
+	position: absolute;
+	
+}*/
+.top_cont {
+	
+	width: 100%;
+	height: 65px;
+	padding-top: 100px; 
+	background-color: #f1f6f9;
+	position: relative;
+
+}
+
+.hr{
+	margin-top: 0;
+	height: 10px;
+	background-color: #f6830f;
+	
+}
+
+.icon { 
+	
+	position: absolute;
+	top: 10px;
+	left: 46%;
+}
+.user {
+	position: absolute;
+	top: 35px;
+	right: 10px;
+}
+.home_a {
+	position: absolute;
+	bottom: 10px;
+	right: 15px;
+}
+.home_a1 {
+	position: absolute;
+	bottom: 10px;
+	right: 100px;
+}
+.home_h2 {
+	
+	text-align: left;
+	/*padding-bottom: 100px;*/
+	font-size: 3rem;
+	position: absolute;
+	top: 10px;
+	padding-left: 20px;
+	/*margin-bottom: 20px; */
+}
+.home_h3 {
+	
+	text-align: left;
+	/*padding-bottom: 100px;*/
+	font-size: 1rem;
+	position: absolute;
+	top: 90px;
+	padding-left: 20px;
+	/*margin-bottom: 20px; */
+}
+
+.home {
+	background-color: #dddddd;
+	margin: 50px auto 0 auto;
+	padding-top: 5%;
+	width: 25%;
+	height: 300px;
+	border-radius: 30px;
+	text-align: left;
+}
+.trans {
+	background-color: #dddddd;	
+	margin: 0 auto 0 auto;
+	padding: 20px;
+	width: 25%;
+	height: 250px;
+	border-radius: 30px;
+	position: relative;
+}
+.t_label1 {
+	
+	position: absolute;
+	right: 55%;
+	bottom: 61%;
+	
+}
+.t_label2 {
+	position: absolute;
+	right: 55%;
+	top: 51%;
+}
+.t_text1 {
+	position: absolute;
+	top: 30%;
+}
+.t_text2 {
+	position: absolute;
+	top: 50%;
+}
+.t_but1 {
+	position: absolute;
+	left: 10%;
+	bottom: 20%;
+	width: 40%;
+	height: 10%;
+	font-size: 1rem;
+	font-weight: bold;
+}
+.t_but2 {
+	position: absolute;
+	right: 10%;
+	bottom: 20%;
+	width: 40%;
+	height: 10%;
+	font-size: 1rem;
+	font-weight: bold;
+	
+}
+.statement {
+	background-color: #dddddd;
+	width: 20%;
+	border-radius: 30px;
+	padding-top: 15px;
+	height: 300px;
+	margin-left: 15px;
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+}
+.s_label1 {
+	
+	position: absolute;
+	right: 70%;
+	top: 30%;
+}
+.s_label2 {
+	
+	position: absolute;
+	right: 70%;
+	top: 46%;
+}
+.s_date1 {
+	
+	position: absolute;
+	right: 10%;
+	top: 34%;
+}
+.s_date2 {
+	
+	position: absolute;
+	right: 10%;
+	top: 50%;
+}
+.s_but1 {
+	
+	position: absolute;
+	right: 10%;
+	width: 53%;
+	height: 10%;
+	bottom: 17%;
+	font-weight: bold;
+}
+.s_table {
+	
+	position: absolute;
+	top: 25%;
+	left: 30%;
+	
+	background-color: #dddddd;
+	
+}
+.home_heading {
+	text-decoration: none;
+	padding-left: 7rem;
+
+	
+}
+.home_para {
+	text-align: center;
+	text-decoration: underline;
+}
+
+table {
+  font-family: 'Montserrat', sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  background-color: #cfdac8;
+  margin: 0 auto 0 auto; 
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+input {
+	border-radius: 5px;
+	font-family: 'Montserrat', sans-serif;
+	height: 20px;
+	
+}
+
+.but {
+	border-radius: 10px;
+	height: 35px;
+	width: 150px;
+	position: relative;
+	left: 50px;
+}
+
+.but_signup {
+	position: relative;
+	left: 50px;
+}
+.t_label1 {
+	
+	margin-top: 100px;
+}

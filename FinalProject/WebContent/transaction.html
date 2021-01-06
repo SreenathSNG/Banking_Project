@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Transaction</title>
+<link rel="stylesheet" href="css/styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="top_cont">
+		<h2 class="home_h2"><strong>MY BANK</strong></h2><br>
+		<h3 class="home_h3">Your Complete Banking Partner</h3><br>
+		<img class="icon" alt="bank-icon" src="images/banking.png">
+		<img class="user" alt="user-icon" src="images/profile-user.png">
+		<a href="homepage.jsp" class="home_a1">home</a>
+		<a href="logout" class="home_a">signout</a>
+	</div>
+	<hr class="hr">
+	
+	<div class="trans">
+	<form action="transaction" method="post">
+		<h3>Perform Debit or Credit Operation</h3>
+		<label class="t_label1">Account Number</label>
+		<input class="t_text1" type="text" name="acno" class="t1" required><br><br>
+		
+		<label class="t_label2">Amount</label>
+		<input class="t_text2" type="text" name="amount" required><br><br>
+		
+		<input class="t_but1" type="submit"  name="debit" value="Debit From">
+		<input class="t_but2" type="submit"  name="credit" value="Credit To">
+	</form>
+	</div>
+	
+	
+	
+</body>
+</html>

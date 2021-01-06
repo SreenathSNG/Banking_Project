@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>SignUp</title>
+<link rel="stylesheet" href="css/styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="top_cont">
+		<h2 class="home_h2"><strong>MY BANK</strong></h2><br>
+		<h3 class="home_h3">Your Complete Banking Partner</h3><br>
+		<img class="icon" alt="bank-icon" src="images/banking.png">
+		<img class="user" alt="user-icon" src="images/profile-user.png">
+	</div>
+	<hr class="hr">
+<form action="signup" method="get">
+	
+	<div class="signup">
+		<h3>Create Account</h3>
+		<label class="signup_l1">Name</label>
+		<input class="signup_t1" type="text" name="uname" required><br><br>
+		<label class="signup_l2">DOB</label>
+		<input class="signup_t2" type="date" name="dob" id="dob" required><br><br>
+		<label class="signup_l3">Address</label>
+		<textarea class="signup_t3" rows="5" cols="22" name="addr" id="addr" required></textarea><br><br>
+		<label class="signup_l4">Email</label>
+		<input class="signup_t4" type="email" name="email" id="email" required><br><br>
+		<label class="signup_l5">User ID</label>
+		<input class="signup_t5"type="text" name="uid" id="uid" required><br><br>
+		<label class="signup_l6">Password</label>
+		<input class="signup_t6" type="password" name="pwd" id="pwd" required><br><br>
+		<label class="signup_l7">Type of Account</label>
+		<select class="signup_t7" name="acc" id="acc" required>
+			<option class="signup_t7" value="">Choose account type</option>
+			<option class="signup_t7" value="cu">Current Account</option>
+			<option class="signup_t7" value="sb">SB Account</option>
+		</select><br><br>
+		<input class="signup_button" type="submit" value="Sign Up">
+	
+	</div>
+	
+</form>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Authorize card</title>
+<link rel="stylesheet" href="css/styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="top_cont">
+	<h2 class="home_h2"><strong>MY BANK</strong></h2><br>
+	<h3 class="home_h3">Your Complete Banking Partner</h3><br>
+	<img class="icon" alt="bank-icon" src="images/banking.png">
+	<img class="user" alt="user-icon" src="images/profile-user.png">
+	<a href="homepage.jsp" class="home_a1">home</a>
+	<a href="logout" class="home_a">signout</a>
+	</div>
+	<hr class="hr">
+
+<form action="authorize" method="post">
+	<div class="auth">
+	<h3 class="a_h3">Authorize Credit Card Transaction</h3>
+		<div class="div1">
+			<label class="a_label1">Name</label>
+			<input class="a_text1" type="text" name="name" required><br><br>
+		</div>
+		<div class="div2">
+			<label class="a_label2">Account No</label>
+			<input class="a_text2" type="text" name="acno" required><br><br>
+		</div>
+		
+		<div class="div3">
+			<label class="a_label3">CVV</label>
+			<input class="a_text3" type="password" name="cvv" required><br><br>
+		</div>
+		
+		<div class="div4">
+			<label class="a_label4">Amount</label>
+			<input class="a_text4" type="text" name="amnt" required><br><br>
+		</div>
+	
+		<input class="a_but" type="submit" value="Authorize">
+	</div>
+	
+</form>
+</body>
+</html>

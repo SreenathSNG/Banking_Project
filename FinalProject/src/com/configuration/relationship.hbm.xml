@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.domains.Basic_Info" table="basic_info"> 
+		
+		<id name="username" column="username">
+			<generator class="assigned"></generator>
+		</id>
+		<property name="name" column="name"></property>
+		<property name="dob" column="dob"></property>
+		<property name="address" column="address"></property>
+		<property name="email" column="email"></property>
+		<property name="password" column="password"></property>
+		<property name="acc_type" column="acc_type"></property>
+		
+	</class>
+	
+	<class name="com.domains.Acc_Info" table="acc_info">
+		<id name="username" column="username">
+			<generator class="assigned"></generator>		
+		</id>
+		<property name="acc_no" column="acc_no"></property>
+		<property name="cc_no" column="cc_no"></property>
+		<property name="cvv_no" column="cvv_no"></property>
+		<property name="balance" column="balance"></property>	
+		
+	</class>
+	<class name="com.domains.Transaction_Info" table="transaction_info">
+		<id name="sl" column="sl_no">
+			<generator class="increment"></generator>		
+		</id>
+		<property name="date" column="date"></property>
+		<property name="description" column="description"></property>
+		<property name="withdraw" column="withdraw"></property>
+		<property name="deposit" column="deposit"></property>	
+		<property name="username" column="username"></property>
+		<property name="balance" column="balance"></property>
+		
+	</class>
+</hibernate-mapping>
